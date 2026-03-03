@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ArgonCodeKits"
 version = "0.3.0"
-description = "Argon 的个人工具库，包含哈希计算、操作系统工具和Python增强功能"
+description = "Argon的代码库，包含一些实用的工具函数，旨在提高开发效率和代码精简度。"
 readme = "README.md"
 authors = [
     {name = "Argon", email = "smmomm@126.com"}

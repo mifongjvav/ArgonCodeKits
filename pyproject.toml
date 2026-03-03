@@ -1,18 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "ArgonCodeKits"
 version = "0.3.0"
-description = "Argon的代码库，包含一些实用的工具函数，旨在提高开发效率和代码精简度。"
+description = "Argon 的个人工具库，包含哈希计算、操作系统工具和Python增强功能"
 readme = "README.md"
 authors = [
     {name = "Argon", email = "smmomm@126.com"}
 ]
-license = {text = "MIT"}
-requires-python = ">=3.6"
-
+license = "MIT"
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
@@ -27,3 +28,14 @@ classifiers = [
     "Topic :: Utilities",
     "Topic :: Security :: Cryptography",
 ]
+keywords = ["utils", "hash", "md5", "sha256", "filesystem", "encryption"]
+requires-python = ">=3.6"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/mifongjvav/ArgonCodeKits"
+Repository = "https://github.com/mifongjvav/ArgonCodeKits"
+BugTracker = "https://github.com/mifongjvav/ArgonCodeKits/issues"
+
+[tool.setuptools]
+packages = ["ArgonCodeKits"]  # 直接指定包名

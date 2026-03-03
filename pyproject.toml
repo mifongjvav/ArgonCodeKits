@@ -1,0 +1,29 @@
+[project]
+name = "ArgonCodeKits"
+version = "0.3.0"
+description = "Argon的代码库，包含一些实用的工具函数，旨在提高开发效率和代码精简度。"
+readme = "README.md"
+authors = [
+    {name = "Argon", email = "smmomm@126.com"}
+]
+license = {text = "MIT"}
+requires-python = ">=3.6"
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Topic :: Security :: Cryptography",
+]

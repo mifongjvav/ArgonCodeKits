@@ -1,4 +1,4 @@
-__version__ = "0.4.3"
+__version__ = "0.4.4"
 
 from .src.hash import *  # noqa: F403
 from .src.system import * # noqa: F403

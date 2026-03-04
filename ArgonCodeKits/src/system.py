@@ -43,3 +43,15 @@ def check_working_directory() -> str:
     if script_dir != current_dir:
         os.chdir(current_dir)
     return current_dir
+
+def folder_size_if_exceeds(threshold: int=524_288) -> int:
+    """如果文件夹大小超过指定阈值，则直接抛出StorageLimitError错误
+
+    Args:
+        threshold (int): 大小阈值（字节）
+    """
+    class StorageLimitError(Exception):
+        """自定义异常：存储限制超出"""
+        pass
+    size = get_folder_size("./")
+    raise StorageLimitError(f"当前文件夹大小 {size} 字节，超过了设定的阈值 {threshold} 字节") if size > threshold else None

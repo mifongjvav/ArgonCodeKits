@@ -1,3 +1,6 @@
-from .hash import *  # noqa: F403
-from .os import * # noqa: F403
-from .pyplus import * # noqa: F403
+__version__ = "0.4.0"
+
+from .src.hash import *  # noqa: F403
+from .src.system import * # noqa: F403
+from .src.extra import * # noqa: F403
+from .src.log import * # noqa: F403

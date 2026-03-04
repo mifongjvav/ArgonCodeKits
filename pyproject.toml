@@ -30,7 +30,10 @@ classifiers = [
 ]
 keywords = ["utils", "hash", "md5", "sha256", "filesystem", "encryption"]
 requires-python = ">=3.6"
-dependencies = []
+dependencies = [
+    "coloredlogs>=15.0.1"
+]
+
 
 [project.urls]
 Homepage = "https://github.com/mifongjvav/ArgonCodeKits"

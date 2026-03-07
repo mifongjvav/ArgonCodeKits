@@ -10,7 +10,7 @@ def init_log_file(lower_level: str = "INFO") -> None:
         lower_level (str, optional): 最低日志级别. Defaults to "INFO".
     """
 
-    log_path = Path(__file__).parent / "latest.log"
+    log_path = Path.cwd() / "latest.log"
     
     # 清理现有的日志处理器
     for handler in logging.root.handlers[:]:

@@ -1,8 +1,7 @@
 import logging
 import random
 import base64
-
-space = " " * 100
+import builtins
 
 def input(prompt: str, level: str = "info") -> str:
     """显示提示信息并记录日志，然后获取用户输入并记录。
@@ -28,7 +27,7 @@ def input(prompt: str, level: str = "info") -> str:
     logging.log(log_level, f"提示信息：{prompt}")
 
     # 获取用户输入
-    user_input = __builtins__.input(prompt)
+    user_input = builtins.input(prompt)
 
     # 记录用户输入
     logging.log(log_level, f"用户输入：{user_input}")

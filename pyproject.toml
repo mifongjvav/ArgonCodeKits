@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ArgonCodeKits"
-version = "0.4.6"
+version = "0.4.8"
 description = "Argon的代码库，包含一些实用的工具函数，旨在提高开发效率和代码精简度。"
 readme = "README.md"
 authors = [
@@ -41,4 +41,4 @@ Repository = "https://github.com/mifongjvav/ArgonCodeKits"
 BugTracker = "https://github.com/mifongjvav/ArgonCodeKits/issues"
 
 [tool.setuptools]
-packages = ["ArgonCodeKits"]  # 直接指定包名
+packages = ["ArgonCodeKits.src"]  # 直接指定包名
